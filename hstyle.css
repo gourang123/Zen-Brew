@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+nav a:hover {
+  color: #45415a;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 40px;
+  color: #fff;
+}
+
+.account:hover {
+  color: #45415a;
+  cursor: pointer;
+}
+
+.cart {
+  font-size: 20px;
+  color: #fff;
+}
+
+.cart:hover {
+  color: #45415a;
+  cursor: pointer;
+}
+
+#about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about h1 {
+  font-size: 57px;
+  font-weight: 700;
+  padding: 30;
+}
+
+#about h1 span {
+  color: #148f80;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.container-about img {
+  width: 90px;
+}
+
+.container-about h2 {
+  font-weight: 700;
+  margin: 15px 0 15px 0;
+  font-size: 20px;
+}
+
+.container-about p {
+  color: #212a3e;
+  width: 240px;
+  font-size: 15px;
+}
+
+.container-about-topics {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-topics {
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+  height: 225px;
+  align-items: center;
+  justify-content: center;
+}
